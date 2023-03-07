@@ -96,7 +96,14 @@ export const MarketView = () => {
         />
       )}
 
-      <ul style={{ display: "flex", listStyle: "none", gap: "1rem" }}>
+      <ul
+        style={{
+          display: "flex",
+          listStyle: "none",
+          gap: "1rem",
+          color: "whitesmoke",
+        }}
+      >
         {categories.map((category) => (
           <li>
             <img style={{ width: 100 }} src={category.image} alt="" />
